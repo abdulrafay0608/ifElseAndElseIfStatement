@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid #000;
+            text-align: center;
+        }
+
+        th,
+        td {
+            height: 40px;
+            width: 200px;
+        }
+
+        @media (max-width: 400px) {
+
+            table,
+            th,
+            td {
+                border: 1px solid #000;
+                text-align: center;
+            }
+
+            th,
+            td {
+                height: 25px;
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th>Items</th>
+            <th>Type</th>
+            <th>Quantity</th>
+            <th>Total Amount</th>
+        </tr>
+        <tr>
+            <td id="menu"></td>
+            <td id="Types"></td>
+            <td id="size"></td>
+            <td id="amount"></td>
+        </tr>
+    </table>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
